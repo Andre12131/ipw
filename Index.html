@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xuning Team</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: black;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav ul li a:hover {
+    color: yellow;
+            }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero img {
+            width: 100%;
+            display: block;
+        }
+        .produtos {
+            padding: 20px;
+            text-align: center;
+        }
+        .produtos-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .produto {
+            background: white;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 30%;
+        }
+        .produto img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .sobre {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            background: white;
+            margin: 20px;
+            border-radius: 5px;
+        }
+        .sobre img {
+            width: 40%;
+            border-radius: 5px;
+            margin-right: 20px;
+        }
+        .sobre-texto {
+            flex: 1;
+        }
+        .upgrade {
+            padding: 20px;
+            background: white;
+            margin: 20px;
+            border-radius: 5px;
+        }
+        footer {
+            background: black;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .footer-section h3 {
+            margin-bottom: 10px;
+        }
+        .footer-section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .footer-section ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .footer-section a img {
+            width: 30px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">XUNING TEAM<img src="logo.png" alt="Logo"></div>
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">PRODUTOS</a></li>
+                <li><a href="#">SERVIÇOS</a></li>
+                <li><a href="#">CONTACTOS</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <img src="pexels-cesar-perez-733745.jpg" alt="Carro esportivo branco em destaque">
+    </section>
+    
+    <section class="produtos">
+        <h2>PRODUTOS EM DESTAQUE</h2>
+        <div class="produtos-container">
+            <div class="produto">
+                <img src="pexels-photo-170811.jpeg" alt="BMW azul">
+                <h3>BMW Série 3 Azul</h3>
+                <p>Carro esportivo com motor turbo e design moderno, ideal para quem busca desempenho e elegância.</p>
+            </div>
+            <div class="produto">
+                <img src="pexels-photo-210019.jpeg" alt="Ferrari vermelha">
+                <h3>Ferrari Esportiva</h3>
+                <p>Potência e sofisticação, esse modelo traz um motor V8 com aceleração impressionante.</p>
+            </div>
+            <div class="produto">
+                <img src="pexels-mike-bird-100650.jpg" alt="BMW branca">
+                <h3>BMW M3 Branca</h3>
+                <p>Design agressivo e tecnologia de ponta, um carro perfeito para os amantes de velocidade.</p>
+            </div>
+        </div>
+    </section>
+    <section class="sobre">
+        <img src="pexels-photo-112460.jpeg" alt="Mercedes AMG">
+        <div class="sobre-texto">
+            <h2>BEM VINDOS À XUNING TEAM</h2>
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney.</p>
+            <p>College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through he cites of the word in classical literature, discovered the undoubtable source Rackham.</p>
+        </div>
+    </section>
+    
+    <section class="upgrade">
+        <h2>FAÇA O UPGRADE DO SEU CARRO</h2>
+        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College.</p>
+    </section>
+    
+    <footer>
+        <div class="footer-section">
+            <h3>LEGAL</h3>
+            <ul>
+                <li><a href="#">Quem somos</a></li>
+                <li><a href="#">Política de Privacidade</a></li>
+                <li><a href="#">Termos e Condições</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>COMERCIAL</h3>
+            <ul>
+                <li><a href="#">Garantia</a></li>
+                <li><a href="#">Política de Devoluções</a></li>
+                <li><a href="#">Perguntas Frequentes</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>REDES SOCIAIS</h3>
+            <a href="#"><img src="square-blue-fb-facebook-meta-icon-logo-free-png-701751695033446iytyzi4kcb.png" alt="Facebook"></a>
+            <a href="#"><img src="hd-official-outline-instagram-ig-logo-icon-png-701751694786948nms5td2hyk.png"Instagram"></a>
+        </div>
+    </footer>
+</body>
+</html>
